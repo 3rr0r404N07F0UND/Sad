@@ -25,4 +25,8 @@ int main(void) {
     myEmotion->sadStop();
     myEmotion->beAwesome();
   }
+
+  delete myEmotion;
+
+  return 0;
 }

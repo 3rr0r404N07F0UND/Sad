@@ -1,21 +1,21 @@
 class Emotion:
-  __im_sad = None
+  __im_sad: bool | None = None
 
-  def __init__(self):
+  def __init__(self) -> None:
     self.__im_sad = True
 
-  def sad(self):
+  def sad(self) -> bool:
     print("When I get sad, ", end = "")
     return self.__im_sad
 
-  def sad_stop(self):
+  def sad_stop(self) -> None:
     self.__im_sad = False
     print("I stop being sad ", end = "")
 
-  def be_awesome(self):
+  def be_awesome(self) -> None:
     print("and be awesome instead", end = "")
 
-myEmotion = Emotion()
+myEmotion: Emotion = Emotion()
 
 # life motto
 if (myEmotion.sad() is True):

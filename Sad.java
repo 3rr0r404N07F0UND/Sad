@@ -8,6 +8,7 @@ class Emotion {
 
   public boolean sad() {
     System.out.print("When I get sad, ");
+
     return this.imSad;
   }
 

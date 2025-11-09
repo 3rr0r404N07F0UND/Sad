@@ -23,3 +23,4 @@ if (myEmotion.sad() === true) {
   myEmotion.sadStop();
   myEmotion.beAwesome();
 }
+

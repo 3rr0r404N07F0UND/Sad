@@ -21,3 +21,4 @@ myEmotion: Emotion = Emotion()
 if (myEmotion.sad() is True):
   myEmotion.sad_stop()
   myEmotion.be_awesome()
+

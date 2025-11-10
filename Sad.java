@@ -1,5 +1,4 @@
 class Emotion {
-
   private boolean imSad;
 
   Emotion() {
@@ -23,7 +22,6 @@ class Emotion {
 }
 
 class Sad {
-
   public static void main(String[] args) {
     Emotion myEmotion = new Emotion();
 
